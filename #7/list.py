@@ -1,6 +1,7 @@
 """
-Topic #7: List mot dang du lieu cho phep luu tru nhieu kieu du lieu khac nhau trong no,
-va chung ta cung co the truy xuat den phan tuy ben trong thong quan vi tri cua no trong list
+Topic #7: List mot dang du lieu cho phep luu tru nhieu kieu du lieu khac nhau
+trong no,va chung ta cung co the truy xuat den phan tuy ben trong thong qua
+vi tri cua no trong list
 
 List trong python = mang (Array)
 """
