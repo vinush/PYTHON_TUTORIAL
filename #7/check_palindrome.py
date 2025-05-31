@@ -27,12 +27,14 @@ print(status)
 # def is_palindrome(s: str) -> bool:
 #     """
 #     Kiểm tra xem một chuỗi có phải là palindrome hay không,
-#     sau khi đã loại bỏ các ký tự không phải chữ và số và chuyển thành chữ thường.
+#     sau khi đã loại bỏ các ký tự không phải chữ và số và chuyển thành chữ
+#     thường.
 #     """
 #     if not s:
 #         return True  # Chuỗi rỗng được coi là palindrome
 
-#     # Bước 1: Chuẩn bị chuỗi - loại bỏ ký tự đặc biệt, khoảng trắng và chuyển thành chữ thường
+#     # Bước 1: Chuẩn bị chuỗi - loại bỏ ký tự đặc biệt, khoảng trắng và
+#     chuyển thành chữ thường
 #     # Sử dụng isalnum() để chỉ giữ lại chữ cái và số
 #     normalized_s = "".join(filter(str.isalnum, s)).lower()
 
