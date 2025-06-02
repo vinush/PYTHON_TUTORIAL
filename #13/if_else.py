@@ -12,6 +12,10 @@ def getChoice(choice):
         return "Not a valid choice"
 
 
+def game_version():
+    print("game version: 1.2.3")
+
+
 def main():
     print("welcome to rock, paper,scissor Game")
     print("[R] = Rock, [P] = Paper, [S]=Scissor and [Q]=Quit")
@@ -26,6 +30,7 @@ def main():
 
         if user_choice == "Q":
             print("Thank for joining! Have nice a day :D")
+            game_version()
             game_on = False
         else:
             random_index = random.randint(0, 2)
