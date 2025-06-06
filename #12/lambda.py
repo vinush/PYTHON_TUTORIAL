@@ -58,4 +58,4 @@ sequence = [1, 3, 5, 9, 6, 2, 8]
 # print(reduce(lambda a, b: a + b, sequence))
 print(f"max number: {reduce(lambda a, b: a if a > b else b, sequence)}")
 
-# done
+# done cove ver 1.2
